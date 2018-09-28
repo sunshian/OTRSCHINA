@@ -4,7 +4,6 @@ ENV TZ=Asia/Shanghai
 RUN yum install -y epel-release && \
     yum update -y && \
     yum -y install \
-	cronie \ 
 	vim \
 	gcc \
 	make \
