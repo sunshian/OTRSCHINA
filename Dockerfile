@@ -5,7 +5,6 @@ RUN yum install -y epel-release && \
     yum update -y && \
     yum -y install \
 	vim \
-	gcc \
 	make \
 	httpd \ 
 	httpd-devel \
