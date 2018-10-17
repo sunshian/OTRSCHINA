@@ -1,0 +1,13 @@
+node{ 
+stage('get clone'){ 
+echo "pull file"
+}
+stage('bulid'){
+echo "build"
+}
+stage('testing'){
+echo "testing"
+}
+stage('end'){
+echo "end"}
+}
